@@ -4,6 +4,7 @@ import { Banner } from "./components/Banner"
 import { Benefits } from "./components/Benefits"
 import { Contact } from "./components/Contact"
 import { Faq } from "./components/Faq"
+import { Footer } from "./components/Footer"
 import { Header } from "./components/Header"
 import { PlanList } from "./components/PlanList"
 import { Pricing } from "./components/Pricing"
@@ -25,6 +26,7 @@ function App() {
       <Testimonials />
       <Faq />
       <Contact />
+      <Footer />
     </div>
   )
 }

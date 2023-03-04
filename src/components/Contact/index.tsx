@@ -3,6 +3,7 @@ import { contact } from "../../data";
 
 export function Contact() {
   const { icon } = community;
+
   const WhatsAppButton = () => {
     window.location.href = 'https://wa.me/5583987921452';
   };

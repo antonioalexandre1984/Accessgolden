@@ -232,7 +232,7 @@ export const join = {
 
 export const footer = {
   logo: Logo,
-  copyrightText: 'All rights reserved. Gymme 2022.',
+  copyrightText: 'Access Golden telecomunicações 2023.Todos os direitos reservados.'
 };
 
 export const navData = {

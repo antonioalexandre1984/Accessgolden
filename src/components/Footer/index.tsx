@@ -1,14 +1,37 @@
-import { ReactNode } from 'react';
+import { IoLogoGithub, IoLogoLinkedin } from 'react-icons/io';
+import { footer } from '../../data';
+import { header } from '../../data';
 
-interface FooterProps {
-  children: ReactNode;
-}
-
-export function Footer({ children }: FooterProps) {
+export function Footer() {
+  const { copyrightText } = footer;
+  const { logo } = header
   return (
-    <>
-      <h1>Footer</h1>
-      {children}
-    </>
+    <section className="bg-[#daa520]  p-[20px]">
+      <div className="container mx-auto w-full h-full flex flex-row justify-center items-center"
+      >
+        <div className="flex justify-between items-center">
+          {/* Logo */}
+          <a href="#" >
+            <img className="w-[100px] " src={logo} alt="" />
+          </a>
+          {/* copyrightText */}
+          <p className="text-[#111] text-[16px] font-semibold">
+            {copyrightText}
+          </p>
+
+          <div className="flex flex-row items-center gap-x-2">
+            <p className="text-[#111] font-semibold text-[12px] md:text-[16px] ">
+              Developer by Antonio Alexandre
+            </p>
+            <a href=" https://www.github.com/antonioalexandre1984/">
+              <IoLogoGithub size={20} color="#111" />
+            </a>
+            <a href=" https://www.linkedin.com/in/antonioacs/">
+              <IoLogoLinkedin size={20} color="#0e76a8" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
   );
 }
