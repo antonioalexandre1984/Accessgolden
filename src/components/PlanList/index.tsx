@@ -3,6 +3,10 @@ import { BsCheckCircleFill } from 'react-icons/bs';
 
 export function PlanList({ plans }) {
 
+  const WhatsAppButton = () => {
+    window.location.href = 'https://wa.me/5583987921452';
+  };
+
   const [index, setIndex] = useState(0);
   return (
     <section id='planList'>
@@ -71,7 +75,9 @@ export function PlanList({ plans }) {
                         })}
                       </ul>
                       {/* btn */}
-                      <button className='shadow-red-800 btn btn-sm lg:btn-lg btn-secondary rounded-xl hover:shadow-2xl'>
+                      <button
+                        onClick={WhatsAppButton}
+                        className='shadow-red-800 btn btn-sm lg:btn-lg btn-secondary rounded-xl hover:shadow-2xl'>
                         Assine agora!
                       </button>
                     </div>

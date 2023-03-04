@@ -46,12 +46,12 @@ export const header = {
 };
 
 export const nav = [
-  { href: '/', name: 'Home' },
-  { href: '/', name: 'Quem Somos' },
-  { href: '/', name: 'Nossos Planos' },
-  { href: '/', name: 'FAQ' },
-  { href: '/', name: 'Onde Estamos' },
-  { href: '/', name: 'Fale Conosco' },
+  { href: 'banner', name: 'Home' },
+  { href: 'benefits', name: 'Vantagens' },
+  { href: 'pricing', name: 'Planos' },
+  { href: 'testimonials', name: 'Nossos Clientes' },
+  { href: 'faq', name: 'FAQ' },
+  { href: 'contact', name: 'Fale Conosco' },
 ];
 
 export const banner = {

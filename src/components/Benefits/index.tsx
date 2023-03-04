@@ -7,6 +7,11 @@ export function Benefits() {
 
   const { icon } = workouts;
 
+  const WhatsAppButton = () => {
+    window.location.href = 'https://wa.me/5583987921452';
+  };
+
+
   return (
     <section id='benefits' className='bg-benefit bg-no-repeat bg-cover '>
       <div className="container mx-auto">
@@ -41,7 +46,9 @@ export function Benefits() {
                     <span className='flex mt-1 items-center justify-center text-[16px] font-semibold mx-auto'>{benefit.details}
                     </span>
                   </div>
-                  <button className="btn btn-sm lg:btn-lg btn-secondary rounded-xl">Quero este!</button>
+                  <button
+                    onClick={WhatsAppButton}
+                    className="btn btn-sm lg:btn-lg btn-secondary rounded-xl">Quero este!</button>
                 </div>
               );
             })}

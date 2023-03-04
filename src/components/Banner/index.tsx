@@ -6,6 +6,11 @@ export function Banner() {
 
   const [isMobile, setIsMobile] = useState(false);
 
+  const WhatsAppButton = () => {
+    window.location.href = 'https://wa.me/5583987921452';
+  };
+
+
   useEffect(() => {
     const handleResize = () => setIsMobile(window.innerWidth < 768);
     window.addEventListener('resize', handleResize);
@@ -15,7 +20,7 @@ export function Banner() {
 
   const { titlePart1, titlePart2, subtitle, textBtn } = banner;
   return (
-    <section className=" bg-banner h-[890px]">
+    <section id='banner' className=" bg-banner h-[890px]">
       <div className="container mx-auto h-full">
         <div className="flex items-center h-full relative justify-center">
           {/* text Left */}
@@ -30,6 +35,7 @@ export function Banner() {
               </h1>
             </div>
             <div
+
               data-aos='fade-down'
               data-aos-delay='500'
               style={{ textShadow: "0 0 10px rgba(0,0,0,2.5)" }}
@@ -39,12 +45,13 @@ export function Banner() {
             <h2
               data-aos="fade-down"
               data-aos-delay="700"
-              className="text-[#f4f0f0] text-2xl   font-bold mb-8">{subtitle}</h2>
+              className="text-[#f4f0f0] text-2xl font-bold mb-8">{subtitle}</h2>
             <div>
               <button
                 style={{ textShadow: "0 0 10px rgba(0,0,0,2.5)" }}
                 data-aos="fade-down"
                 data-aos-delay="900"
+                onClick={WhatsAppButton}
                 className="shadow-red-800  btn btn-lg lg:btn-lg btn-secondary rounded-xl">{textBtn}</button>
             </div>
           </div>

@@ -3,6 +3,10 @@ import { contact } from "../../data";
 
 export function Contact() {
   const { icon } = community;
+  const WhatsAppButton = () => {
+    window.location.href = 'https://wa.me/5583987921452';
+  };
+
   return (
     <section id='contact' className="section-portifolio bg-benefit bg-no-repeat bg-cover">
       <div className="container mx-auto px-4" >
@@ -51,7 +55,9 @@ export function Contact() {
               </div>
               <input type='text' className="input" placeholder="Assunto" />
               <textarea className="textarea" placeholder="Digite a sua mensagem!"></textarea>
-              <button className="btn btn-sm rounded-xl lg:btn-lg btn-tertiary">Enviar Messagem!</button>
+              <button
+                onClick={WhatsAppButton}
+                className="btn btn-sm rounded-xl lg:btn-lg btn-tertiary">Enviar Messagem!</button>
             </form>
           </div>
         </div>

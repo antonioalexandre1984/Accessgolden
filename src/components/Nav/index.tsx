@@ -1,4 +1,5 @@
 import { nav } from "../../data";
+import { Link } from 'react-scroll';
 
 export function Nav() {
   return (
@@ -7,9 +8,15 @@ export function Nav() {
         {nav.map((item, i) => {
           return (
             <li key={i}>
-              <a href="" className=" hover:text-[#bdb3d8] transition duration-300">
+              <Link
+                to={item.href}
+                smooth={true}
+                spy={true}
+                offset={-70}
+                duration={500}
+                className=" hover:text-[#bdb3d8] transition duration-300 cursor-pointer">
                 {item.name}
-              </a>
+              </Link>
             </li>
           )
         })}
