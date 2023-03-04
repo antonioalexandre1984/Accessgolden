@@ -5,7 +5,7 @@ export function Pricing() {
   const { icon, title, plans } = pricing;
 
   return (
-    <section id='pricing' className='bg-bgbanner bg-no-repeat bg-cover'>
+    <section id='pricing' className='bg-banner bg-no-repeat bg-cover'>
       <div className="container mx-auto" >
         <div
           style={{ textShadow: "0 0 10px rgba(0,0,0,0.5)" }}

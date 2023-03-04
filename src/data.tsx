@@ -306,7 +306,7 @@ export const testimonials = [
 // contact
 export const contact = [
   {
-    icon: <FiMail size={24} color='#e6c229' />,
+    icon: <FiMail size={24} color='#111' />,
     title: 'Have a question?',
     subtitle: 'I am here to help you.',
     description: 'Email me at hello@youremail.com',

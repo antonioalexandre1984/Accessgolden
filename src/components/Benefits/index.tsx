@@ -8,7 +8,7 @@ export function Benefits() {
   const { icon } = workouts;
 
   return (
-    <section id='benefits' className='bg-[#dbdbdb] '>
+    <section id='benefits' className='bg-benefit bg-no-repeat bg-cover '>
       <div className="container mx-auto">
         <div className="w-full max-w-[1440px] flex flex-col pt-12 pb-24 gap-8 px-12 justify-center">
 

@@ -4,7 +4,7 @@ import { Accordion } from '../Accordion';
 export function Faq() {
   const { icon, title, accordions } = faq;
   return (
-    <section id='faq' className='bg-bgbanner bg-no-repeat bg-cover'>
+    <section id='faq' className='bg-banner bg-no-repeat bg-cover'>
       <div className="pt-12 lg:pt-24 mb-8 lg:mb-6 pb-36">
         <div className="max-w-[768px] mx-auto lg:h-[740px] lg:pt-6">
           {/* section title */}

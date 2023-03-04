@@ -74,10 +74,10 @@
   }
 
   .input {
-    @apply bg-[#dbdbdb] text-[#111] h-[60px] outline-none pl-6 w-full font-body text-[15px] rounded-sm focus:outline focus:outline-1 focus:outline-[#d11149];
+    @apply bg-[#fff] text-[#111] h-[60px] outline-none pl-6 w-full font-body text-[15px] rounded-sm focus:outline focus:outline-1 focus:outline-[#f6aa1cb7];
   }
   .textarea {
-    @apply bg-[#dbdbdb] text-[#111] resize-none w-full outline-none p-6 rounded-sm h-[200px] focus:outline focus:outline-1 focus:outline-[#d11149];
+    @apply bg-[#fff] text-[#111] resize-none w-full outline-none p-6 rounded-sm h-[200px] focus:outline focus:outline-2 focus:outline-[#f6aa1cb7];
   }
   .active {
     @apply text-[#fff] bg-accent-200;

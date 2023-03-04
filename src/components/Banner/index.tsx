@@ -15,7 +15,7 @@ export function Banner() {
 
   const { titlePart1, titlePart2, subtitle, textBtn } = banner;
   return (
-    <section className=" bg-bgbanner h-[890px]">
+    <section className=" bg-banner h-[890px]">
       <div className="container mx-auto h-full">
         <div className="flex items-center h-full relative justify-center">
           {/* text Left */}

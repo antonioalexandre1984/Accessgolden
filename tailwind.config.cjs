@@ -47,8 +47,9 @@ module.exports = {
       backgroundImage: {
         banner: "url('./assets/img/banner/about.png')",
         faq: "url('./assets/img/faq/bg2.png')",
-        bgbanner: "url('./assets/img/banner/bgbanner.png')",
-        plan:"url('./assets/img/plan/bg.png')",
+        banner: "url('./assets/img/banner/bg2.jpg')",
+        plan: "url('./assets/img/plan/bg.png')",
+        benefit: "url('./assets/img/benefit/bg.jpg')",
       },
       backgroundSize: {
         auto: 'auto',
