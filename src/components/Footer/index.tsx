@@ -9,13 +9,13 @@ export function Footer() {
     <section className="bg-[#daa520]  p-[20px]">
       <div className="container mx-auto w-full h-full flex flex-row justify-center items-center"
       >
-        <div className="flex justify-between items-center">
+        <div className="flex flex-col  justify-between items-center">
           {/* Logo */}
           <a href="#" >
             <img className="w-[100px] " src={logo} alt="" />
           </a>
           {/* copyrightText */}
-          <p className="text-[#111] text-[16px] font-semibold">
+          <p className="text-[#111] md:text-[16px] text-sm text-center font-semibold">
             {copyrightText}
           </p>
 

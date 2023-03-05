@@ -3,8 +3,8 @@ module.exports = {
   theme: {
     fontFamily: {
       primary: 'Inter',
-      secondary: 'Open Sans',
-         body: 'Work Sans',
+      secondary: 'Inter',
+         body: 'Inter',
     },
     container: {
       padding: {

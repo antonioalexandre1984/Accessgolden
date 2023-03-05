@@ -40,7 +40,7 @@ export function Benefits() {
           >
             {benefitsData.map((benefit, i) => {
               return (
-                <div className="flex flex-col bg-[#fff] rounded-3xl p-8 gap-y-6 text-[#111] items-center min-h-[300px] border-dotted border-2 border-indigo-600" /* style={{ width: "30%", height: "auto" }} */ key={i}>
+                <div className="w-full lg:w-1/3 flex flex-col bg-[#fff] rounded-3xl p-8 gap-y-6 text-[#111] items-center min-h-[300px] border-solid border-4 border-[#daa520]" key={i}>
                   <div className="mx-auto ">
                     {benefit.icon}
                     <span className='flex mt-1 items-center justify-center text-[16px] font-semibold mx-auto'>{benefit.details}
