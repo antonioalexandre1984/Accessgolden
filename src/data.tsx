@@ -28,7 +28,7 @@ import { FaWhatsapp } from 'react-icons/fa';
 import { FiMail } from 'react-icons/fi';
 import { FiMapPin } from 'react-icons/fi';
 import { GiConsoleController } from 'react-icons/gi';
-import { BsWifi } from 'react-icons/bs';
+import { BsTelephoneInbound, BsWifi } from 'react-icons/bs';
 import { BsChatSquareText } from 'react-icons/bs';
 
 // testimonial images
@@ -113,13 +113,13 @@ export const pricing = {
   title: 'Nossos Planos',
   plans: [
     {
-      name: 'Basic',
-      planName: '40 MEGAS',
-      price: '39,99',
+      name: 'Plus',
+      planName: '30 MEGAS',
+      price: '50,00',
       list: [
         { name: '100% Fibra Óptica' },
         { name: 'Roteador WIFI em locação' },
-        { name: '40 MEGA Download' },
+        { name: '30 MEGA Download' },
         { name: 'Sem limite de Download e Upload' },
         { name: 'Instalação Gratuita' },
       ],
@@ -127,12 +127,12 @@ export const pricing = {
     },
     {
       name: 'Premium',
-      planName: '50 MEGAS',
-      price: '49,99',
+      planName: '60 MEGAS',
+      price: '55,00',
       list: [
         { name: '100% Fibra Óptica' },
         { name: 'Roteador WIFI em locação' },
-        { name: '50 MEGA Download' },
+        { name: '60 MEGA Download' },
         { name: 'Sem limite de Download e Upload' },
         { name: 'Instalação Gratuita' },
       ],
@@ -140,12 +140,25 @@ export const pricing = {
     },
     {
       name: 'Elite',
-      price: '69,99',
-      planName: '70 MEGAS',
+      price: '70,00',
+      planName: '100 MEGAS',
       list: [
         { name: '100% Fibra Óptica' },
         { name: 'Roteador WIFI em locação' },
-        { name: '70 MEGA Download' },
+        { name: '100 MEGA Download' },
+        { name: 'Sem limite de Download e Upload' },
+        { name: 'Instalação Gratuita' },
+      ],
+      delay: 1000,
+    },
+    {
+      name: 'Turbo',
+      price: '99,00',
+      planName: '200 MEGAS',
+      list: [
+        { name: '100% Fibra Óptica' },
+        { name: 'Roteador WIFI em locação' },
+        { name: '200 MEGA Download' },
         { name: 'Sem limite de Download e Upload' },
         { name: 'Instalação Gratuita' },
       ],
@@ -153,6 +166,8 @@ export const pricing = {
     },
   ],
 };
+
+
 
 export const community = {
   icon: CommunityIcn,
@@ -190,34 +205,34 @@ export const faq = {
   title: 'Dúvidas',
   accordions: [
     {
-      question: 'How can I book a workout class?',
+      question: 'O que é fibra óptica?',
       answer:
-        'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.',
+        'A fibra óptica é uma estrutura de vidro cilíndrica, transparente, flexível e com dimensões microscópicas, parecidas com um fio de cabelo. É uma forma de transmissão que permite o tráfego de dados com velocidades próximas à velocidade da luz. O sinal da fibra óptica é transmitido por meio de reflexões de raios laser ao longo de todo o cabo, atingindo uma capacidade de transmissão única.',
     },
     {
-      question: 'Can I pay by cash for my membership?',
+      question: 'Por que a fibra é superior a outras tecnologias?',
       answer:
-        'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.',
+        'Velocidade de transmissão de dados é maior que de outras tecnologias, como o cabo coaxial e o par trançado.Maior estabilidade de sinal. Não sofre interferências ou quedas de transmissão.'
     },
     {
-      question: 'What age do I need to be to join?',
+      question: 'O que é Wi-Fi de alta performance?',
       answer:
-        'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.',
+        'É disponibilizado em comodato para os clientes um modem de última geração. Dependendo da viabilidade técnica da região ou dos aparelhos utilizados pelo cliente pode ser um modem que trabalha na frequência 2.4 ou um dual band no qual opera com 2 frequências de rede (2.4Ghz e 5.0Ghz).',
     },
     {
-      question: 'Are there any lockers?',
+      question: 'AMinha internet está lenta, o que eu faço?',
       answer:
-        'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.',
+        'Desligue o modem e o roteador particular, caso possua, e aguarde 5 minutos. Ligue o modem e aguarde 5 minutos. Ligue o roteador particular, caso possua, e aguarde 5 minutos. Faça uma limpeza no seu navegador, excluindo cookies e arquivos temporários.',
     },
     {
-      question: 'How do I cancel my membership?',
+      question: 'O que é a velocidade de download?',
       answer:
-        'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.',
+        'É a velocidade de recebimento de dados (como um arquivo, vídeo, etc) de outro computador ou servidor para um computador local através da Internet. Usuários domésticos tendem a realizar mais downloads do que uploads.',
     },
     {
-      question: 'Is there water available at the gym?',
+      question: 'O que é a velocidade de upload?',
       answer:
-        'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.',
+        'É a velocidade de envio de dados (como um arquivo, e-mail, foto, etc) de um computador em um local para um computador ou servidor em outro local, através da Internet. A velocidade de upload é geralmente muito menor do que a velocidade de download. A razão para isso é que as pessoas, ao acessar a Internet, geralmente fazem mais download do que upload.',
     },
   ],
 };
@@ -232,7 +247,7 @@ export const join = {
 
 export const footer = {
   logo: Logo,
-  copyrightText: 'Access Golden telecomunicações 2023.Todos os direitos reservados.'
+  copyrightText: 'Access Golden telecomunicações 2023.Todos os direitos reservados.CNPJ. 21.423.914/0001-35'
 };
 
 export const navData = {
@@ -257,20 +272,20 @@ export const socialData = [
 
 export const benefitsData = [
   {
-    icon: <BsWifi className="w-12 h-12 text-[#f3a712]" />,
+    icon: <BsWifi className="w-16 h-16 text-[#f3a712]" />,
     heading: "WiFi Potente",
     details:
       "Conecte vários dispositivos ao mesmo tempo. Com a Access Golden Telecom você não tem limites!.",
   },
   {
-    icon: <GiConsoleController className="w-12 h-12 text-[#f3a712]" />,
+    icon: <GiConsoleController className="w-16 h-16 text-[#f3a712]" />,
     heading: "Alto Desempenho",
     details:
       "Conecte vários dispositivos ao mesmo tempo. Com a Access Golden Telecom você não tem limites!",
   },
 
   {
-    icon: <BsChatSquareText className="w-12 h-12 text-[#f3a712]" />,
+    icon: <BsChatSquareText className="w-16 h-16 text-[#f3a712]" />,
     heading: "Health Fitness",
     details:
       "Qualidade e agilidade de atendimento, sempre pronta para melhor atendê-lo.",
@@ -283,23 +298,23 @@ export const testimonials = [
   {
     authorImg: TestiImage1,
     authorText:
-      'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
-    authorName: 'Olivia Doe',
-    authorPosition: 'Head of Design, Google',
+      'Venho acompanhando a evolução da Access Golden Telecom, e posso dizer que a empresa vem crescendo a cada dia, com um atendimento de qualidade e um serviço de qualidade, parabéns a toda equipe da Access Golden Telecom.',
+    authorName: 'Larissa Oliveira',
+    authorPosition: 'Estudante ',
   },
   {
     authorImg: TestiImage2,
     authorText:
-      'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
-    authorName: 'Olivia Doe',
-    authorPosition: 'Head of Design, Google',
+      'Eu sou muito exigente quando se diz respeito a qualidade da internet, e a Access Golden Telecom me surpreendeu, com uma internet de qualidade e preço justo.',
+    authorName: 'Olivia Santos',
+    authorPosition: 'Atendente - Trabalha remotamente',
   },
   {
     authorImg: TestiImage3,
     authorText:
-      'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
-    authorName: 'Olivia Doe',
-    authorPosition: 'Head of Design, Google',
+      'Não tem mais nada mais satisfatório do que ter o bom e barato em sua casa.Com os planos da Access Golden Telecom eu pude escolher um que fosse complemente compátivel com meu bolso.Estou muito satisfeito.Vou recomendar para as minhas amigas e familiares.',
+    authorName: 'Eliane Carvalho',
+    authorPosition: 'Influenciadora Digital',
   },
 ];
 
@@ -307,15 +322,22 @@ export const testimonials = [
 export const contact = [
   {
     icon: <FiMail size={24} color='#111' />,
-    title: 'Have a question?',
-    subtitle: 'I am here to help you.',
-    description: 'Email me at hello@youremail.com',
+    title: 'Alguma Dúvida?',
+    subtitle: 'Estamos aqui para te ajudar.',
+    description: 'Email accessgolden@gmail.com',
   },
   {
     icon: <FiMapPin size={24} color='#d11149' />,
     title: 'Current Location',
-    subtitle: 'Bucharest, Romania',
-    description: 'Serving clients worldwide',
+    subtitle: 'R. Amaury Araújo de Vasconcelos- SN',
+    description: 'Três Irmãs, Campina Grande - PB',
+    description2: 'Campina Grande - PB, 58424-715',
+  },
+  {
+    icon: <BsTelephoneInbound size={24} color='#440eb8' />,
+    title: 'Contato',
+    subtitle: '(83) 2148 - 6920',
+    description: '(83) 98612 - 4287',
   },
 ];
 

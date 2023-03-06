@@ -43,6 +43,7 @@ export function Banner() {
               <h1 className='h1 text-[#dbdbdb] mb-8'>{titlePart2}</h1>
             </div>
             <h2
+              style={{ textShadow: "0 0 10px rgba(0,0,0,1.5)" }}
               data-aos="fade-down"
               data-aos-delay="700"
               className="text-[#f4f0f0] text-2xl font-bold mb-8">{subtitle}</h2>

@@ -5,6 +5,10 @@ import { header } from '../../data';
 export function Footer() {
   const { copyrightText } = footer;
   const { logo } = header
+  const WhatsAppButton = () => {
+    window.location.href = 'https://wa.me/5583987921452';
+  };
+
   return (
     <section className="bg-[#daa520]  p-[20px]">
       <div className="container mx-auto w-full h-full flex flex-row justify-center items-center"
@@ -21,7 +25,9 @@ export function Footer() {
 
           <div className="flex flex-row items-center gap-x-2">
             <p className="text-[#111] font-semibold text-[12px] md:text-[16px] ">
-              Developer by Antonio Alexandre
+              Desenvolvido por Antonio Alexandre - 83 <button
+                onClick={WhatsAppButton}
+              >98792-1452</button>
             </p>
             <a href=" https://www.github.com/antonioalexandre1984/">
               <IoLogoGithub size={20} color="#111" />

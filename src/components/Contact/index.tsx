@@ -5,7 +5,7 @@ export function Contact() {
   const { icon } = community;
 
   const WhatsAppButton = () => {
-    window.location.href = 'https://wa.me/5583987921452';
+    window.location.href = 'https://wa.me/5583986124287';
   };
 
   return (
@@ -27,19 +27,22 @@ export function Contact() {
           <div className="flex flex-col lg:gap-x-8 lg:flex-row lg:items-start">
             <div className="flex flex-1 flex-col items-start space-y-8 mb-12 lg:mb-12 lg:pt-2">
               {contact.map((item, i) => {
-                const { icon, title, description, subtitle } = item;
+                const { icon, title, description, description2, subtitle } = item;
                 return (
                   <div
                     data-aos='fade-up'
                     data-aos-duration='700'
                     data-aos-delay='700'
-                    key={i} className="flex flex-col lg:flex-row gap-x-6 items-center w-full mt-8 border-t border-gray-400 pt-4">
-                    {icon}
+                    key={i} className="flex flex-col lg:flex-row gap-x-6  justify-center items-center w-full  border-t border-gray-400 pt-4">
 
                     <div className="">
+                      <div className="flex items-center justify-center mb-2">
+                        {icon}
+                      </div>
                       <h4 className="text-xl mb-1">{title}</h4>
                       <p className="mb-1 text-primary">{subtitle || description}</p>
                       <p className="mb-1 text-primary">{description}</p>
+                      <p className="mb-1 text-primary">{description2}</p>
                     </div>
                   </div>
                 );

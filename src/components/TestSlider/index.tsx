@@ -15,7 +15,7 @@ export function TestSlider() {
           clickable: true,
         }}
         autoplay={{
-          delay: 2500,
+          delay: 5000,
           disableOnInteraction: false,
         }}
         modules={[Autoplay, Pagination]}

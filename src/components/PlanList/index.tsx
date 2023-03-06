@@ -11,7 +11,7 @@ export function PlanList({ plans }) {
   return (
     <section id='planList'>
       <div className="container mx-auto">
-        <div className="flex flex-col  lg:flex-row items-center justify-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {plans.map((plan, currentIndex) => {
             // destructure plan data
             const { name, price, list, delay, planName } = plan;
