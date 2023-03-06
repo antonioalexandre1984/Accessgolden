@@ -4,7 +4,7 @@ import { BsCheckCircleFill } from 'react-icons/bs';
 export function PlanList({ plans }) {
 
   const WhatsAppButton = () => {
-    window.location.href = 'https://wa.me/5583987921452';
+    window.location.href = 'https://wa.me/5583986124287';
   };
 
   const [index, setIndex] = useState(0);

@@ -7,7 +7,7 @@ export function Banner() {
   const [isMobile, setIsMobile] = useState(false);
 
   const WhatsAppButton = () => {
-    window.location.href = 'https://wa.me/5583987921452';
+    window.location.href = 'https://wa.me/5583986124287';
   };
 
 
