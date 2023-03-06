@@ -9,7 +9,7 @@ export function Contact() {
   };
 
   return (
-    <section id='contact' className="section-portifolio bg-benefit bg-no-repeat bg-cover">
+    <section id='contact' className="section-portfolio bg-benefit bg-no-repeat bg-cover">
       <div className="container mx-auto px-4" >
         <div className="flex flex-col items-center text-center">
           <div
