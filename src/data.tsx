@@ -50,7 +50,7 @@ export const nav = [
   { href: 'benefits', name: 'Vantagens' },
   { href: 'pricing', name: 'Planos' },
   { href: 'testimonials', name: 'Nossos Clientes' },
-  { href: 'faq', name: 'FAQ' },
+  { href: 'faq', name: 'Dúvidas' },
   { href: 'contact', name: 'Fale Conosco' },
 ];
 

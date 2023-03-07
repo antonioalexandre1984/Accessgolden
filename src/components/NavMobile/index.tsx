@@ -53,7 +53,7 @@ export function NavMobile(/* { navMobile }: navMobileProps */) {
           variants={circleVariants}
           initial="hidden"
           animate={isOPen ? 'visible' : 'hidden'}
-          className="w-4 h-4  bg-[#daa520]   rounded-full top-0 right-0 fixed">
+          className="w-4 h-4  bg-[#daa520] rounded-full top-0 right-0 fixed">
         </motion.div>
         <motion.ul
           variants={ulVariants}
@@ -75,7 +75,7 @@ export function NavMobile(/* { navMobile }: navMobileProps */) {
                   spy={true}
                   offset={-70}
                   duration={500}
-                  className="text-body-md  text-[#e7e7ed] cursor-pointer hover:text-[#111]"
+                  className="text-[24px]  text-[#fff] cursor-pointer hover:text-[#111]"
                   onClick={() => handleMenuClick(item.href)}
                 >
                   {item.name}

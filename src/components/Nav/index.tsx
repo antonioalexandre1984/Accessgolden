@@ -14,7 +14,7 @@ export function Nav() {
                 spy={true}
                 offset={-70}
                 duration={500}
-                className=" hover:text-[#bdb3d8] transition duration-300 cursor-pointer">
+                className=" hover:text-[#e8e6ec] transition duration-300 cursor-pointer">
                 {item.name}
               </Link>
             </li>
