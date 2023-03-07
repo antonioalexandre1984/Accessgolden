@@ -50,6 +50,7 @@ module.exports = {
         banner: "url('./assets/img/banner/bg2.jpg')",
         plan: "url('./assets/img/plan/bg.png')",
         benefit: "url('./assets/img/benefit/bg.jpg')",
+        benefitLogo: "url('./assets/img/benefit/bg.png')",
       },
       backgroundSize: {
         auto: 'auto',

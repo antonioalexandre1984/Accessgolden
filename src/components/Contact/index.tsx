@@ -19,7 +19,7 @@ export function Contact() {
             style={{ textShadow: "0 0 10px rgba(0,0,0,2)" }}
             className="section-title-group max-w-[940px] mx-auto lg:px-0 mt-24"
           >
-            <img src={icon} alt="" className="" />
+            <img src={icon} alt="" />
             <h2 className="h1 "> Fale Conosco!
               <span className="text-[rgb(31,31,186)] shadow-2xl">.</span>
             </h2>

@@ -31,9 +31,9 @@ export function Benefits() {
             </h2>
           </div>
           <div
-            /*      data-aos='fade-up'
-                 data-aos-delay='400'
-                 data-aos-offset='400' */
+            data-aos='fade-up'
+            data-aos-delay='400'
+            data-aos-offset='400'
             className="flex flex-col items-center lg:flex-row gap-x-6 gap-y-6 justify-center"
           >
             {benefitsData.map((benefit, i) => {

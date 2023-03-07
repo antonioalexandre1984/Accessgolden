@@ -7,9 +7,8 @@ export function Testimonials() {
     <section id='testimonials'>
       <div className="container mx-auto px-4 md:px-0 mt-48 py-8 md:py-0">
         <div
-          /* data-aos='fade-up'
-          data-aos-delay='400'
-          data-aos-offset='400' */
+          data-aos="fade-up"
+          data-aos-offset="200"
           className="section-title-group max-w-[740px] mx-auto md:px-0 mt-48 md:mt-0">
           <img src={icon} alt="" className="" />
           <h2

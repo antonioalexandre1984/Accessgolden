@@ -21,9 +21,10 @@ export function Banner() {
   const { titlePart1, titlePart2, subtitle, textBtn } = banner;
   return (
     <section id='banner' className=" bg-banner h-[890px]">
-      <div className="container mx-auto h-full">
-        <div className="flex items-center h-full relative justify-center">
+      <div className="container mx-auto h-full ">
+        <div className="flex items-center h-full relative justify-center  ">
           {/* text Left */}
+
           <div className='flex flex-col z-10 mt-24'>
             <div className="flex flex-row z-10">
               <h1
@@ -55,6 +56,7 @@ export function Banner() {
                 onClick={WhatsAppButton}
                 className="shadow-red-800  btn btn-lg lg:btn-lg btn-secondary rounded-xl">{textBtn}</button>
             </div>
+
           </div>
           {/* image Right */}
           {!isMobile && (

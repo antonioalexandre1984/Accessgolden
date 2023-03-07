@@ -6,10 +6,6 @@ import { MenuAlt3Icon } from '@heroicons/react/outline'
 import { motion } from 'framer-motion'
 import { useState } from 'react';
 
-/* interface navMobileProps {
-  navMobile: boolean;
-} */
-
 export function NavMobile(/* { navMobile }: navMobileProps */) {
 
   const [isOPen, setIsOpen] = useState(false);
@@ -47,8 +43,7 @@ export function NavMobile(/* { navMobile }: navMobileProps */) {
   }
 
   return (
-    <nav className='relative'
-      /* className={`${isOPen ? 'min-h-screen' : 'min-h-0'} lg:hidden w-full bg-neutral-200 fixed top-0 left-0 right-0 -bottom-12 -z-10  transition-all h-0 overflow-hidden`} */ >
+    <nav className='relative'>
       <div className="cursor-pointer text-white">
         <MenuAlt3Icon
           onClick={() => setIsOpen(!isOPen)}
@@ -92,10 +87,6 @@ export function NavMobile(/* { navMobile }: navMobileProps */) {
             <Socials />
           </div>
         </motion.ul>
-        {/*  <div className="w-full absolute  bottom-0 text-[#302c8f] hover:text-[#73d2de] p-6  bg-neutral-200 ">
-          
-       
-      </div> */}
       </div>
     </nav >
   );

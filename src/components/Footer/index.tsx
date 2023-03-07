@@ -1,10 +1,9 @@
 import { IoLogoGithub, IoLogoLinkedin } from 'react-icons/io';
 import { footer } from '../../data';
-import { header } from '../../data';
+import bg from '../../assets/img/header/bg.png';
 
 export function Footer() {
   const { copyrightText } = footer;
-  const { logo } = header
   const WhatsAppButton = () => {
     window.location.href = 'https://wa.me/5583987921452';
   };
@@ -15,8 +14,8 @@ export function Footer() {
       >
         <div className="flex flex-col  justify-between items-center">
           {/* Logo */}
-          <a href="#" >
-            <img className="w-[100px] " src={logo} alt="" />
+          <a href="#" className='shadow-orange-800'>
+            <img className="w-[100px] shadow-orange-800" src={bg} alt="" />
           </a>
           {/* copyrightText */}
           <p className="text-[#111] md:text-[16px] text-sm text-center font-semibold">
