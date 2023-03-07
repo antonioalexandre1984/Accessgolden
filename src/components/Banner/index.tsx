@@ -20,18 +20,18 @@ export function Banner() {
 
   const { titlePart1, titlePart2, subtitle, textBtn } = banner;
   return (
-    <section id='banner' className=" bg-banner h-[890px]">
+    <section id='banner' className=" bg-banner h-[890px] relative">
       <div className="container mx-auto h-full ">
         <div className="flex items-center h-full relative justify-center  ">
           {/* text Left */}
 
-          <div className='flex flex-col z-10 mt-24'>
-            <div className="flex flex-row z-10">
+          <div className='flex flex-col mt-24'>
+            <div className="flex flex-row">
               <h1
                 data-aos='fade-down'
                 data-aos-offset='500'
                 style={{ textShadow: "0 0 10px rgba(0,0,0,1.5)" }}
-                className="text-[#f7b32b] text-7xl font-bold absolute top-60 left-0 z-10">
+                className="text-[#f7b32b] text-7xl font-bold absolute top-60 left-0">
                 {titlePart1}
               </h1>
             </div>

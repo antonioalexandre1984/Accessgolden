@@ -6,7 +6,7 @@ export function Socials() {
       {socialData.map((item, i) => {
         return (
           <li key={i}>
-            <a href={item.href} className="text-3xl text-[#302c8f] hover:text-[#73d2de]">{item.icon}</a>
+            <a href={item.href} className="text-3xl text-[#e7e7ed] hover:text-[#111]">{item.icon}</a>
           </li>
         )
       })}
