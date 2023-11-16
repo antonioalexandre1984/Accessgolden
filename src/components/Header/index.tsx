@@ -20,7 +20,7 @@ export function Header() {
 
     <header
       style={{ textShadow: "0 0 10px rgba(0,0,0,1.5)" }}
-      className={`${isActive ? 'bg-[#daa520] h-20 opacity-80 ]' : 'h-24'} flex items-center fixed right-0 top-0 w-full text-white z-10 transition-all duration-300`}>
+      className={`${isActive ? 'bg-[#daa520] h-20 opacity-80' : 'h-24'} flex items-center fixed right-0 top-0 w-full text-white z-10 transition-all duration-300`}>
       < div className="container mx-auto h-full flex items-center justify-between" >
         {/* logo */}
 

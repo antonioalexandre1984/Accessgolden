@@ -37,7 +37,7 @@ export function NavMobile(/* { navMobile }: navMobileProps */) {
     },
   }
 
-  function handleMenuClick(section) {
+  function handleMenuClick(section: string) {
     setActiveSection(section);
     setIsOpen(!isOPen);
   }

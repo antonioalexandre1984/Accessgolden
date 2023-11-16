@@ -23,7 +23,7 @@ export function Footer() {
           </p>
 
           <div className="flex flex-row items-center gap-x-2">
-            <p className="text-[#111] font-semibold text-[12px] md:text-[16px] ">
+            <p className="text-[#111] font-semibold text-[16px] md:text-[16px] ">
               Desenvolvido por Antonio Alexandre - 83 <button
                 onClick={WhatsAppButton}
               >98792-1452</button>

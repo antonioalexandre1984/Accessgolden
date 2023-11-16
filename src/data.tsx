@@ -324,7 +324,7 @@ export const contact = [
   },
   {
     icon: <FiMapPin size={24} color='#d11149' />,
-    title: 'Current Location',
+    title: 'Nosso Endereço',
     subtitle: 'R. Amaury Araújo de Vasconcelos- SN',
     description: 'Três Irmãs, Campina Grande - PB',
     description2: 'Campina Grande - PB, 58424-715',
